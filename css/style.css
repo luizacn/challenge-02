@@ -14,6 +14,7 @@ body {
     width: 375px;
     height: 667px;
     margin: 100px auto;
+
 }
 
 .container {
@@ -85,9 +86,23 @@ p {
 }
 
 .autor {
-    
+
     margin-top: -40px;
     margin-left: 80px;
     color: #F4FFFF;
-    
 }
+
+@media screen and (min-width: 1000px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; /* Alinhamento horizontal */
+        align-items: center; 
+        margin-top: 0;
+        margin-bottom: 0;
+        
+      }
+        
+    }
