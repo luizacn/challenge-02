@@ -14,6 +14,7 @@ body {
     width: 375px;
     height: 667px;
     margin: 100px auto;
+    font-size: 18px;
 
 }
 
@@ -81,14 +82,14 @@ p {
     display: inline-block;
     margin-left: 25px;
     margin-top: 20px;
+    width: 40px;
     border-radius: 50%;
     border: 2px solid white;
 }
 
 .autor {
-
     margin-top: -40px;
-    margin-left: 80px;
+    margin-left: 90px;
     color: #F4FFFF;
 }
 
@@ -98,11 +99,12 @@ p {
         height: 100vh;
         overflow: hidden;
         display: flex;
-        justify-content: center; /* Alinhamento horizontal */
-        align-items: center; 
+        justify-content: center;
+        /* Alinhamento horizontal */
+        align-items: center;
         margin-top: 0;
         margin-bottom: 0;
-        
-      }
-        
+
     }
+
+}
